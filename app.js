@@ -20,10 +20,9 @@ app.get("/tweets",(req,res)=>{
     })
 });
 
-
-// app.get("/",(req,res)=>{
-//     res.status(200).send("SUBANU");
-// });
+ app.get("/",(req,res)=>{
+    res.status(200).send("SUBANU");
+ });
 
 
 
